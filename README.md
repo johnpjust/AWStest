@@ -2,7 +2,7 @@ Geological Image Similarity BACKGROUND A geology research company wants to creat
 
 
 
-# Case Study -- Bank Marketing Capaign Data Analysis
+# Case Study -- Geological Image Similarity
 
 
 <br><br>
@@ -20,4 +20,27 @@ Geological Image Similarity BACKGROUND A geology research company wants to creat
 
 <p align="center">
   <img src="images/GeoNNs_Page_3.jpg" width="900" title="3">
+</p>
+
+<br><br>
+<p align="center">
+  <img src="images/GeoNNs_Page_4.jpg" width="900" title="4">
+</p>
+
+<br><br>
+
+<p align="center">
+  <img src="images/GeoNNs_Page_5.jpg" width="900" title="5">
+</p>
+
+<br><br>
+
+<p align="center">
+  <img src="images/GeoNNs_Page_6.jpg" width="900" title="6">
+</p>
+
+<br><br>
+
+<p align="center">
+  <img src="images/GeoNNs_Page_7.jpg" width="900" title="7">
 </p>
