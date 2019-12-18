@@ -44,3 +44,15 @@ Geological Image Similarity BACKGROUND A geology research company wants to creat
 <p align="center">
   <img src="images/GeoNNs_Page_7.jpg" width="900" title="7">
 </p>
+
+<br><br>
+
+<p align="center">
+  <img src="images/GeoNNs_Page_8.jpg" width="900" title="8">
+</p>
+
+<br><br>
+
+<p align="center">
+  <img src="images/GeoNNs_Page_9.jpg" width="900" title="9">
+</p>
