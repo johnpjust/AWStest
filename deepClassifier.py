@@ -235,6 +235,19 @@ train_y_mb = np.concatenate(train_y_mb)
 np.savetxt(r'D:\pycharm_projects\AWSgeo\Tensorboard\model_2019-12-17-00-38-33\train_logits.csv', train_x_mb, delimiter=',')
 np.savetxt(r'D:\pycharm_projects\AWSgeo\Tensorboard\model_2019-12-17-00-38-33\train_labels.csv', train_y_mb, delimiter=',')
 
+dataset = tf.data.Dataset.from_tensor_slices((data, labels))
+dataset = dataset.batch(2*args.batch_size)
+
+data_x_mb = []
+data_y_mb = []
+for x_mb, y_mb in dataset:
+    data_x_mb.append(model(x_mb, training=False).numpy())
+    data_y_mb.append(y_mb)
+data_x_mb = np.concatenate(data_x_mb)
+data_y_mb = np.concatenate(data_y_mb)
+np.save(r'D:\pycharm_projects\AWSgeo\Tensorboard\model_2019-12-17-00-38-33\data_logits.npy', data_x_mb)
+np.save(r'D:\pycharm_projects\AWSgeo\Tensorboard\model_2019-12-17-00-38-33\data_labels.npy', data_y_mb)
+
 #### tensorboard --logdir=D:\pycharm_projects\AWSgeo\Tensorboard
 
 ########### C:\Program Files\NVIDIA Corporation\NVSMI
